@@ -18,7 +18,7 @@ namespace StagesMod
 #endif
             "0.0.1";
 
-        internal const string ModIdentifier = "TurboEdition";
+        internal const string ModIdentifier = "StagesMod";
         internal const string ModGuid = "com.Anreol." + ModIdentifier;
 
         public static StagesMod instance;
@@ -37,7 +37,7 @@ namespace StagesMod
         {
             SMLog.logger = Logger;
 #if DEBUG
-            SMLog.LogW("Running TurboEdition DEBUG build. PANIC!");
+            SMLog.LogW("Running StagesMod DEBUG build. PANIC!");
 #endif
             pluginInfo = Info;
             instance = this;
