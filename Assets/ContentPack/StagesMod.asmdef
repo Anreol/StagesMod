@@ -1,0 +1,23 @@
+{
+    "name": "StagesMod",
+    "references": [],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "BepInEx.dll",
+        "0Harmony.dll",
+        "BepInEx.Harmony.dll",
+        "HGCSharpUtils.dll",
+        "Wwise.dll",
+        "Mono.Cecil.dll",
+        "MonoMod.RuntimeDetour.dll",
+        "MonoMod.Utils.dll",
+        "MMHOOK_Assembly-CSharp.dll",
+        "Assembly-Stubbed.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
