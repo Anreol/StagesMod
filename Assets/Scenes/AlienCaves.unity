@@ -484,7 +484,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495819617}
   m_LocalRotation: {x: -0, y: -0, z: 0.110926166, w: 0.9938287}
-  m_LocalPosition: {x: -126.21001, y: -1.71, z: -134.40001}
+  m_LocalPosition: {x: -126.21001, y: 0.29, z: -134.40001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1212257278}
@@ -830,7 +830,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1009891441}
-  m_Mesh: {fileID: 4300000, guid: 61f08d0074bde0a429996bb047529036, type: 2}
+  m_Mesh: {fileID: 4300000, guid: 05ddd47798aae4c429e990c6ccfd2e89, type: 2}
 --- !u!64 &1009891445
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -844,7 +844,7 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 61f08d0074bde0a429996bb047529036, type: 2}
+  m_Mesh: {fileID: 4300000, guid: 05ddd47798aae4c429e990c6ccfd2e89, type: 2}
 --- !u!1 &1122778242
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,6 +887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1150454444}
   - component: {fileID: 1150454443}
+  - component: {fileID: 1150454445}
   m_Layer: 0
   m_Name: Directional Light (SUN)
   m_TagString: Untagged
@@ -910,12 +911,12 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
+    m_Bias: 0.265
+    m_NormalBias: 0.25
     m_NearPlane: 0.2
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
@@ -946,6 +947,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1150454445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150454442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1654260760, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NGSS_KEEP_ONDISABLE: 1
+  NGSS_SHADOWS_RESOLUTION: 256
+  NGSS_SAMPLING_TEST: 4
+  NGSS_SAMPLING_DENOISER: 1
+  NGSS_SAMPLING_FILTER: 8
+  NGSS_GLOBAL_SOFTNESS: 2
+  NGSS_PCSS_ENABLED: 0
+  NGSS_PCSS_SOFTNESS_MIN: 1
+  NGSS_PCSS_SOFTNESS_MAX: 1
+  NGSS_SHADOWS_DITHERING: 1
+  NGSS_NOISE_SCALE: 1
+  NGSS_RECEIVER_PLANE_BIAS: 0
+  GLOBAL_SETTINGS_OVERRIDE: 0
+  GLOBAL_SHADOWS_PROJECTION: 1
+  GLOBAL_SHADOWS_DISTANCE: 150
+  GLOBAL_CASCADED_SHADOWS: 1
+  GLOBAL_CASCADES_COUNT: 4
+  GLOBAL_CASCADES_SPLIT_VALUE: 0.1
+  NGSS_CASCADES_BLENDING: 1
+  NGSS_CASCADES_BLENDING_VALUE: 1
+  NGSS_CASCADES_SOFTNESS_NORMALIZATION: 1
 --- !u!1 &1212257277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1292,7 +1326,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1337356199}
-  m_Mesh: {fileID: 4300000, guid: d9f7918bd9990b34292d50668a920f5b, type: 2}
+  m_Mesh: {fileID: 4300000, guid: 9535fd51a6caf9e4f85585fea3fa5617, type: 2}
 --- !u!114 &1337356203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1319,7 +1353,7 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: d9f7918bd9990b34292d50668a920f5b, type: 2}
+  m_Mesh: {fileID: 4300000, guid: 9535fd51a6caf9e4f85585fea3fa5617, type: 2}
 --- !u!1 &1432534917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,8 +1382,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1432534917}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -85, y: 0, z: -150}
-  m_LocalScale: {x: 500, y: 200, z: 500}
+  m_LocalPosition: {x: 1, y: 0, z: -150}
+  m_LocalScale: {x: 700, y: 200, z: 500}
   m_Children: []
   m_Father: {fileID: 797538547}
   m_RootOrder: 0
