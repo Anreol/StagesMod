@@ -1,60 +1,34 @@
 ManifestFileVersion: 0
-CRC: 363564262
+CRC: 4190591545
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: cfe2822d6dfeaa9b5e42e686de51c5ea
+    Hash: 4dedd4a7db4ee18909aa02844b4411fa
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 10af4780ca9bccb091d03f03c1ccbbe1
+    Hash: f47d81ad6ff335a95a18206d26f0db15
 HashAppended: 0
 ClassTypes:
-- Class: 1
-  Script: {instanceID: 0}
-- Class: 4
-  Script: {instanceID: 0}
-- Class: 21
-  Script: {instanceID: 0}
 - Class: 28
   Script: {instanceID: 0}
-- Class: 48
-  Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 1788389205, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
-- Class: 114
-  Script: {fileID: 511512695, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
-- Class: 114
-  Script: {fileID: -2130789662, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
 - Class: 114
   Script: {fileID: -281164913, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
 - Class: 114
-  Script: {fileID: -565067572, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
-- Class: 114
-  Script: {fileID: 816898038, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+  Script: {fileID: 630417361, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
 - Class: 114
   Script: {fileID: 1522826077, guid: d2e201569828c809f3d2502f0471d348, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: ef2a123f517c6464c9503cf474018e5f, type: 3}
 - Class: 115
   Script: {instanceID: 0}
-- Class: 198
-  Script: {instanceID: 0}
-- Class: 199
-  Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- Assets/Hopoo/materials/matOmniRing2.mat
 - Assets/ContentPack/AssetStage/SceneDefs/AlienCaves.asset
-- Assets/Hopoo/materials/matOmniHitspark3.mat
-- Assets/Hopoo/materials/matOmniHitspark1.mat
 - Assets/ContentPack/AssetStage/heaven.png
-- Assets/Hopoo/materials/matGenericFlash.mat
 - Assets/ContentPack/AssetStage/ContentPack.asset
-- Assets/Hopoo/materials/matTracerBright.mat
 - Assets/ContentPack/AssetStage/Prefabs/Effects/CopyFromHopoo.asset
-- Assets/ContentPack/AssetStage/Prefabs/Effects/OmniEffect/OmniImpactVFXHellchain.prefab
+- Assets/ContentPack/AssetStage/SurfaceDefs/Placeholder.asset
 - Assets/ContentPack/AssetStage/Prefabs/Effects/OrbEffects/OrbEffects.asset
-- Assets/Hopoo/shaders/CopyFromRoR2.shader
 - Assets/ContentPack/AssetStage/Prefabs/Effects/OmniEffect/OmniEffects.asset
 Dependencies: []

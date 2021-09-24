@@ -11,8 +11,10 @@ d01cc68b5e4c117f21d11eaec11beef6 Assembly-CSharp.dll:RoR2.ClassicStageInfo
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:RoR2.DirectorCore
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DisableOnStart
 35cd7525542f0d58533e445c06c7ae9f Assembly-CSharp.dll:RoR2.MapZone
+c89e5266e0e7b62eb207207a334f9487 Assembly-CSharp.dll:RoR2.Navigation.NodeGraph
 c652cce6ade2356386f34b437d4bdf1e Assembly-CSharp.dll:RoR2.SceneDirector
 38c3f0efe210f3577d15ddc7e1833060 Assembly-CSharp.dll:RoR2.SpawnPoint
+e39b7a15ebf9e442c68805be58c6c646 Assembly-CSharp.dll:RoR2.SurfaceDefProvider
 a80b14bbf82e09e68bcc40555bf99005 RainOfStages.Plugin.dll:PassivePicasso.RainOfStages.Proxy.CharacterSpawnCard
 3076035d801595c2a3237689eb6b70e5 RainOfStages.Plugin.dll:PassivePicasso.RainOfStages.Proxy.GlobalEventManager
 1ecbd3949793fadeb9f2895a8920db1f RainOfStages.Plugin.dll:PassivePicasso.RainOfStages.Proxy.InteractableSpawnCard

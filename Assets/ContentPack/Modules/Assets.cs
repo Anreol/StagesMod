@@ -40,7 +40,7 @@ namespace StagesMod
         public static string[] GetAssetBundlePaths()
         {
             return Directory.GetFiles(Path.Combine(assemblyDir, assetBundleFolderName))
-               .Where(filePath => !filePath.EndsWith(".manifest"))
+               .Where(filePath => !filePath.EndsWith(".manifest")).Where(filePath => !filePath.EndsWith(".ros")) //FIXME: Stages cannot be added by RoS and here else it would be duped. The async load cannot take care of "streamed scene assetS" or smth. also a || didn't work.
                .OrderByDescending(path => Path.GetFileName(path).Equals(mainAssetBundleName))
                .ToArray();
         }

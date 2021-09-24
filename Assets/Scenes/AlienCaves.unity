@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 28607754}
   - component: {fileID: 28607753}
   - component: {fileID: 28607752}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: EscapePodMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 75154526}
   - component: {fileID: 75154525}
   - component: {fileID: 75154524}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: EscapePodMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +301,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 199312940}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: 'HOLDER: Preplaced Objects'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +324,7 @@ Transform:
   - {fileID: 620278982}
   - {fileID: 1530193340}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &216110170
 GameObject:
@@ -399,8 +399,8 @@ MonoBehaviour:
   airNodeGroup: {fileID: 0}
   railNodeGroup: {fileID: 0}
   approximateMapBoundMesh: {fileID: 0}
-  groundNodesAsset: {fileID: 0}
-  airNodesAsset: {fileID: 0}
+  groundNodesAsset: {fileID: 11400000, guid: 31f6c9af67df5bd48b61d69763978bec, type: 2}
+  airNodesAsset: {fileID: 11400000, guid: b8e0814bc632936458a22e2d53b9eea5, type: 2}
   DebugNoCeiling: 0
   DebugTeleporterOk: 0
   DebugLinks: 0
@@ -457,7 +457,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &495819617
 GameObject:
@@ -469,7 +469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 495819618}
   - component: {fileID: 495819619}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: SurvivorPodSpawnPoint (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,7 +484,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495819617}
   m_LocalRotation: {x: -0, y: -0, z: 0.110926166, w: 0.9938287}
-  m_LocalPosition: {x: -190.42, y: -1.71, z: -159.6}
+  m_LocalPosition: {x: -126.21001, y: -1.71, z: -134.40001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1212257278}
@@ -514,7 +514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 620278982}
   - component: {fileID: 620278983}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: SurvivorPodSpawnPoint (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -529,7 +529,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620278981}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -193.03, y: -1.81, z: -168.45}
+  m_LocalPosition: {x: -128.82, y: -1.81, z: -143.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 75154523}
@@ -631,7 +631,7 @@ Transform:
   m_Children:
   - {fileID: 1432534918}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &985389162
 GameObject:
@@ -661,7 +661,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1002264219
 GameObject:
@@ -675,7 +675,7 @@ GameObject:
   - component: {fileID: 1002264223}
   - component: {fileID: 1002264222}
   - component: {fileID: 1002264221}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: EscapePodMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -764,7 +764,8 @@ GameObject:
   - component: {fileID: 1009891442}
   - component: {fileID: 1009891444}
   - component: {fileID: 1009891443}
-  m_Layer: 0
+  - component: {fileID: 1009891445}
+  m_Layer: 11
   m_Name: RoofMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -830,6 +831,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1009891441}
   m_Mesh: {fileID: 4300000, guid: 61f08d0074bde0a429996bb047529036, type: 2}
+--- !u!64 &1009891445
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009891441}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 61f08d0074bde0a429996bb047529036, type: 2}
 --- !u!1 &1122778242
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,7 +854,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1122778243}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 'HOLDER: GAMEPLAY SPACE'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,13 +869,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122778242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -70.00267, y: 0.048115917, z: -28.59165}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1009891442}
   - {fileID: 1337356200}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1150454442
 GameObject:
@@ -929,7 +944,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1212257277
 GameObject:
@@ -943,7 +958,7 @@ GameObject:
   - component: {fileID: 1212257281}
   - component: {fileID: 1212257280}
   - component: {fileID: 1212257279}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: EscapePodMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1210,7 +1225,9 @@ GameObject:
   - component: {fileID: 1337356200}
   - component: {fileID: 1337356202}
   - component: {fileID: 1337356201}
-  m_Layer: 0
+  - component: {fileID: 1337356204}
+  - component: {fileID: 1337356203}
+  m_Layer: 11
   m_Name: GroundMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1226,7 +1243,7 @@ Transform:
   m_GameObject: {fileID: 1337356199}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 33.558235, y: 50.06447, z: -87.55721}
-  m_LocalScale: {x: 51.258667, y: 51.25865, z: 51.25865}
+  m_LocalScale: {x: 51.258667, y: 51.25859, z: 51.25859}
   m_Children: []
   m_Father: {fileID: 1122778243}
   m_RootOrder: 1
@@ -1276,6 +1293,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1337356199}
   m_Mesh: {fileID: 4300000, guid: d9f7918bd9990b34292d50668a920f5b, type: 2}
+--- !u!114 &1337356203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337356199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1052602003, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceDef: {fileID: 11400000, guid: 5222c8e9a97be00419007b6e7e45806d, type: 2}
+--- !u!64 &1337356204
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337356199}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: d9f7918bd9990b34292d50668a920f5b, type: 2}
 --- !u!1 &1432534917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1304,7 +1348,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1432534917}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -150, y: 0, z: -150}
+  m_LocalPosition: {x: -85, y: 0, z: -150}
   m_LocalScale: {x: 500, y: 200, z: 500}
   m_Children: []
   m_Father: {fileID: 797538547}
@@ -1334,7 +1378,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1432534917}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1394,7 +1438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1530193340}
   - component: {fileID: 1530193341}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: SurvivorPodSpawnPoint (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1409,7 +1453,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530193339}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -200.01, y: -1.82, z: -165.3}
+  m_LocalPosition: {x: -135.8, y: -1.82, z: -140.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 28607751}
@@ -1439,7 +1483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1778564857}
   - component: {fileID: 1778564858}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: SurvivorPodSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1454,7 +1498,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778564856}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -184.5, y: 0, z: -164}
+  m_LocalPosition: {x: -120.29001, y: 0, z: -138.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1002264220}
@@ -1474,33 +1518,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consumed: 0
---- !u!1 &1960100869
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1960100870}
-  m_Layer: 11
-  m_Name: World
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1960100870
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960100869}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -19,7 +19,8 @@ MonoBehaviour:
   networkedObjectPrefabs: []
   skillDefs: []
   skillFamilies: []
-  sceneDefs: []
+  sceneDefs:
+  - {fileID: 11400000, guid: aad5416165b500e42a3f4593b8c0716f, type: 2}
   itemDefs: []
   equipmentDefs: []
   buffDefs: []
@@ -27,7 +28,8 @@ MonoBehaviour:
   unlockableDefs: []
   survivorDefs: []
   artifactDefs: []
-  surfaceDefs: []
+  surfaceDefs:
+  - {fileID: 11400000, guid: 5222c8e9a97be00419007b6e7e45806d, type: 2}
   networkSoundEventDefs: []
   musicTrackDefs: []
   gameEndingDefs: []
