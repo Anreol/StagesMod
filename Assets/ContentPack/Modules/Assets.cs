@@ -26,7 +26,7 @@ namespace StagesMod
         }
 
         private const string assetBundleFolderName = "assetbundles";
-        internal static string mainAssetBundleName = "assetStages";
+        internal static string mainAssetBundleName = "assetstages";
         public static ReadOnlyCollection<AssetBundle> assetBundles;
 
         public static void Init()

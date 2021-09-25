@@ -1,16 +1,20 @@
 ManifestFileVersion: 0
-CRC: 4023692135
+CRC: 4207727372
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5adbc1c4aaf8b1aff231d5a2b26d6d72
+    Hash: 762b731fb4175b60a46b52785ac3275a
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c4f85603862b2ff8350a5ca87913253c
+    Hash: f47d81ad6ff335a95a18206d26f0db15
 HashAppended: 0
 ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -281164913, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+- Class: 114
+  Script: {fileID: 630417361, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
 - Class: 114
   Script: {fileID: 1522826077, guid: d2e201569828c809f3d2502f0471d348, type: 3}
 - Class: 114
@@ -20,9 +24,11 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- Assets/ContentPack/AssetStage/SceneDefs/AlienCaves.asset
+- Assets/ContentPack/AssetStage/SceneDefs/aliencaves.asset
 - Assets/ContentPack/AssetStage/heaven.png
+- Assets/ContentPack/AssetStage/ContentPack.asset
 - Assets/ContentPack/AssetStage/Prefabs/Effects/CopyFromHopoo.asset
+- Assets/ContentPack/AssetStage/SurfaceDefs/Placeholder.asset
 - Assets/ContentPack/AssetStage/Prefabs/Effects/OrbEffects/OrbEffects.asset
 - Assets/ContentPack/AssetStage/Prefabs/Effects/OmniEffect/OmniEffects.asset
 Dependencies: []

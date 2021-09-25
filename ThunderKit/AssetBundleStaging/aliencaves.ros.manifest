@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1193623021
+CRC: 62739629
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5f4989487676146ff6092d9da24540da
+    Hash: 35c57aff0bd659dc1f13a98bb8bdd013
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c2048126709c0034173477471c754c9b
+    Hash: bc8da0cc2cfb3fee625af7d64ea5d6ca
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -40,6 +40,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 653292689, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
 - Class: 114
+  Script: {fileID: -104859921, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+- Class: 114
   Script: {fileID: -1674629239, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
 - Class: 114
   Script: {fileID: 866789372, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
@@ -52,11 +54,19 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 818754807, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
 - Class: 114
+  Script: {fileID: 181164114, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+- Class: 114
   Script: {fileID: 1809671115, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+- Class: 114
+  Script: {fileID: 630417361, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
 - Class: 114
   Script: {fileID: 1052602003, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
 - Class: 114
+  Script: {fileID: -1673569841, guid: d2e201569828c809f3d2502f0471d348, type: 3}
+- Class: 114
   Script: {fileID: -1213446, guid: d2e201569828c809f3d2502f0471d348, type: 3}
+- Class: 114
+  Script: {fileID: 1706033464, guid: d2e201569828c809f3d2502f0471d348, type: 3}
 - Class: 114
   Script: {fileID: -1093821148, guid: d2e201569828c809f3d2502f0471d348, type: 3}
 - Class: 114
@@ -66,5 +76,6 @@ ClassTypes:
 - Class: 157
   Script: {instanceID: 0}
 Assets:
-- Assets/Scenes/AlienCaves.unity
-Dependencies: []
+- Assets/Scenes/aliencaves.unity
+Dependencies:
+- C:/Users/Angel/source/repos/StagesMod/ThunderKit/AssetBundleStaging/assetstages

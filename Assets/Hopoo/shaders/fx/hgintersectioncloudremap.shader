@@ -1,7 +1,7 @@
 Shader "StubbedShader/fx/hgintersectioncloudremap" {
 	Properties {
-		[Enum(UnityEngine.Rendering.BlendMode)] _SrcBlendFloat ("Source Blend", Float) = 1
-		[Enum(UnityEngine.Rendering.BlendMode)] _DstBlendFloat ("Destination Blend", Float) = 1
+		[Enum(UnityEngine.Rendering.BlendMode)] _SrcBlendFloat ("Source Blend", Enum(UnityEngine.Rendering.BlendMode)) = 1
+		[Enum(UnityEngine.Rendering.BlendMode)] _DstBlendFloat ("Destination Blend", Enum(UnityEngine.Rendering.BlendMode)) = 1
 		[HDR] _TintColor ("Tint", Color) = (1,1,1,1)
 		_MainTex ("Base (RGB) Trans (A)", 2D) = "grey" {}
 		_Cloud1Tex ("Cloud 1 (RGB) Trans (A)", 2D) = "grey" {}

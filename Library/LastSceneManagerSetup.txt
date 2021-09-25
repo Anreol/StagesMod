@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/AlienCaves.unity
+- path: Assets/Scenes/aliencaves.unity
   isLoaded: 1
   isActive: 1
