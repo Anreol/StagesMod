@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: matCrystalParallax02
   m_Shader: {fileID: 4800000, guid: c40d1efd8c8a42f183b6d05fda191d54, type: 2}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: ALPHACLIP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -44,11 +44,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Height1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 5dd3fa26c708e0d408091670cbc1588c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Height2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 5a0c50d437b61f445be91166062694b0, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -73,27 +73,27 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _ClipOn: 0
+    - _ClipOn: 1
     - _Cull: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EmissionPower: 1.25
+    - _EmissionPower: 2.33
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _HeightBias: 1
-    - _HeightStrength: 4.32
+    - _HeightStrength: 4.89
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Parallax: 0.54
+    - _Parallax: -1.09
     - _RampInfo: 4
-    - _Smoothness: 0.24
+    - _Smoothness: 0.214
     - _SmoothnessTextureChannel: 0
-    - _SpecularExponent: 4
+    - _SpecularExponent: 6.92
     - _SpecularHighlights: 1
-    - _SpecularStrength: 0.85
+    - _SpecularStrength: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
