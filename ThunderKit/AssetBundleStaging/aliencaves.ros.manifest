@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 61123033
+CRC: 1826060681
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4f06633ddcf3110a10b1b75497be1a90
+    Hash: 0c9d4a3a176308e105d3bd1776bcb0f2
   TypeTreeHash:
     serializedVersion: 2
     Hash: bc8da0cc2cfb3fee625af7d64ea5d6ca
@@ -78,4 +78,4 @@ ClassTypes:
 Assets:
 - Assets/Scenes/aliencaves.unity
 Dependencies:
-- C:/Users/Angel/source/repos/StagesMod/ThunderKit/AssetBundleStaging/assetstages
+- C:/Users/Anr/source/repos/StagesMod/ThunderKit/AssetBundleStaging/assetstages
