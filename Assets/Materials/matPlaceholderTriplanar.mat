@@ -129,7 +129,7 @@ Material:
     - _Cull: 2
     - _Cutoff: 0.5
     - _DecalLayer: 1
-    - _Depth: 0.044
+    - _Depth: 0.473
     - _DetailNormalMapScale: 1
     - _DitherOn: 0
     - _DoublesampleOn: 1
@@ -166,7 +166,7 @@ Material:
     - _Metallic: 0
     - _MixColorsOn: 0
     - _Mode: 0
-    - _NormalStrength: 0.135
+    - _NormalStrength: 0.369
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _PrintBias: 0
@@ -191,7 +191,7 @@ Material:
     - _SplatmapOn: 0
     - _SplatmapTileScale: 1
     - _SrcBlend: 1
-    - _TextureFactor: 0.056
+    - _TextureFactor: 0.011
     - _UVSec: 0
     - _VerticalBiasOn: 0
     - _ZWrite: 1

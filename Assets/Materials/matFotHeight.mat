@@ -315,7 +315,7 @@ Material:
     - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+    - _Color: {r: 0.23584908, g: 0.12818225, b: 0.112362064, a: 1}
     - _CritColor: {r: 1, g: 1, b: 1, a: 1}
     - _CubeColor: {r: 1, g: 1, b: 1, a: 1}
     - _CutoffScroll: {r: 0.2, g: 0.15, b: 0, a: 0.01}

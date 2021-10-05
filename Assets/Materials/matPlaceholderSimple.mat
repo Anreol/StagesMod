@@ -31,6 +31,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Cloud1Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cloud2Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -40,6 +48,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirtNormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirtTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -83,6 +99,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 090b2f31057d76c49b0e5f57c158c1b2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -111,7 +131,19 @@ Material:
         m_Texture: {fileID: 2800000, guid: 19e457b0ebabacd47a645ada1b8a1b16, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RemapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SliceAlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowNormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -120,17 +152,29 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AlphaBoost: 1
+    - _AngleLimit: 0.5
+    - _BinaryBlendOn: 1
     - _BlueChannelBias: 1.97
     - _BlueChannelSmoothness: 0.776
     - _BlueChannelSpecularExponent: 14.16
     - _BlueChannelSpecularStrength: 0.73
     - _BumpScale: 1
+    - _CloudOn: 0
     - _ColorsOn: 1
     - _Cull: 2
     - _Cutoff: 0.5
+    - _DecalBlendMode: 0
+    - _DecalDstBlend: 10
     - _DecalLayer: 1
+    - _DecalSrcBlend: 1
     - _Depth: 0.044
     - _DetailNormalMapScale: 1
+    - _DirtBias: 0
+    - _DirtOn: 0
+    - _DirtSmoothness: 0
+    - _DirtSpecularExponent: 1
+    - _DirtSpecularStrength: 0
     - _DitherOn: 0
     - _DoublesampleOn: 1
     - _DstBlend: 0
@@ -156,16 +200,23 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _GradientBiasOn: 0
     - _GreenChannelBias: -0.2
     - _GreenChannelSmoothness: 0
     - _GreenChannelSpecularExponent: 1.4
     - _GreenChannelSpecularStrength: 0
+    - _IgnoreBiasOn: 0
     - _LimbPrimeMask: 1
     - _LimbRemovalOn: 0
+    - _LimitTo: 0
+    - _MaskMultiplier: 1
+    - _MaskNormals: 1
     - _MaskOn: 1
     - _Metallic: 0
     - _MixColorsOn: 0
     - _Mode: 0
+    - _NormalBlendMode: 0
+    - _NormalMultiplier: 1
     - _NormalStrength: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -184,7 +235,11 @@ Material:
     - _SliceHeight: 5
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
+    - _SnowBias: 0
     - _SnowOn: 0
+    - _SnowSmoothness: 0
+    - _SnowSpecularExponent: 1
+    - _SnowSpecularStrength: 0
     - _SpecularExponent: 1
     - _SpecularHighlights: 1
     - _SpecularStrength: 0
@@ -192,11 +247,15 @@ Material:
     - _SplatmapTileScale: 1
     - _SrcBlend: 1
     - _TextureFactor: 0.056
+    - _TriplanarOn: 0
+    - _TriplanarTextureFactor: 1
     - _UVSec: 0
     - _VerticalBiasOn: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CutoffScroll: {r: 0, g: 0, b: 0, a: 0}
     - _EmColor: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FlashColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GradientBiasVector: {r: 0, g: 0, b: 0, a: 0}
