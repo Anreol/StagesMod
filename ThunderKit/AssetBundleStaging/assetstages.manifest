@@ -1,15 +1,19 @@
 ManifestFileVersion: 0
-CRC: 4207727372
+CRC: 3317410002
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 762b731fb4175b60a46b52785ac3275a
+    Hash: e3eb6fc1155be402e2e2d11da7349936
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f47d81ad6ff335a95a18206d26f0db15
+    Hash: d97caa1c14b409cc2600558e1fc25e39
 HashAppended: 0
 ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
 - Class: 28
+  Script: {instanceID: 0}
+- Class: 48
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: -281164913, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
@@ -21,14 +25,54 @@ ClassTypes:
   Script: {fileID: 11500000, guid: ef2a123f517c6464c9503cf474018e5f, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
 Assets:
+- Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgvertexonly.shader
+- Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgdamagenumber.shader
+- Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgsolidparallax.shader
+- Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgdistortion.shader
+- Assets/ContentPack/AssetStage/Hopoo/shaders/postprocess/hgsobelbuffer.shader
+- Assets/ContentPack/AssetStage/Hopoo/materials/matOmniRing2.mat
 - Assets/ContentPack/AssetStage/SceneDefs/aliencaves.asset
+- Assets/ContentPack/AssetStage/Hopoo/materials/matOmniHitspark3.mat
+- Assets/ContentPack/AssetStage/Hopoo/materials/matOmniHitspark2.mat
+- Assets/ContentPack/AssetStage/Hopoo/shaders/postprocess/hgoutlinehighlight.shader
+- Assets/ContentPack/AssetStage/Hopoo/materials/matOmniHitspark1.mat
+- Assets/ContentPack/AssetStage/Hopoo/shaders/ui/hguibarremap.shader
+- Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgcloudremap.shader
+- Assets/ContentPack/AssetStage/Hopoo/shaders/deferred/hgwavycloth.shader
+- Assets/ContentPack/AssetStage/Hopoo/shaders/ui/hguiblur.shader
+- Assets/ContentPack/AssetStage/Hopoo/shaders/deferred/hgstandard.shader
+- Assets/ContentPack/AssetStage/Hopoo/materials/matOmniHitspark4.mat
+- Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgforwardplanet.shader
 - Assets/ContentPack/AssetStage/heaven.png
+- Assets/ContentPack/AssetStage/Hopoo/materials/matBrotherSwingDistortion.mat
+- Assets/ContentPack/AssetStage/Hopoo/shaders/environment/hgdistantwater.shader
+- Assets/ContentPack/AssetStage/Hopoo/materials/matGenericFlash.mat
+- Assets/ContentPack/AssetStage/Hopoo/shaders/environment/hgwaterfall.shader
 - Assets/ContentPack/AssetStage/ContentPack.asset
+- Assets/ContentPack/AssetStage/Hopoo/materials/physmatSuperFriction.asset
+- Assets/ContentPack/AssetStage/Hopoo/shaders/ui/hguicustomblend.shader
+- Assets/ContentPack/AssetStage/Hopoo/shaders/ui/hguioverbrighten.shader
+- Assets/ContentPack/AssetStage/Hopoo/shaders/ui/hguiignorez.shader
+- Assets/ContentPack/AssetStage/Hopoo/materials/matDeathProjectileFlare.mat
+- Assets/ContentPack/AssetStage/Hopoo/materials/matTracerBright.mat
 - Assets/ContentPack/AssetStage/Prefabs/Effects/CopyFromHopoo.asset
+- Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgopaquecloudremap.shader
 - Assets/ContentPack/AssetStage/SurfaceDefs/Placeholder.asset
+- Assets/ContentPack/AssetStage/Hopoo/shaders/deferred/hgtriplanarterrainblend.shader
+- Assets/ContentPack/AssetStage/Hopoo/materials/matOmniRing1.mat
+- Assets/ContentPack/AssetStage/Hopoo/materials/matMercExposedBackdrop.mat
+- Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgintersectioncloudremap.shader
+- Assets/ContentPack/AssetStage/Hopoo/shaders/postprocess/hgscopeshader.shader
 - Assets/ContentPack/AssetStage/Prefabs/Effects/OrbEffects/OrbEffects.asset
+- Assets/ContentPack/AssetStage/Hopoo/shaders/postprocess/hgscreendamage.shader
+- Assets/ContentPack/AssetStage/Hopoo/shaders/ui/hguianimatealpha.shader
+- Assets/ContentPack/AssetStage/Hopoo/shaders/CopyFromRoR2.shader
 - Assets/ContentPack/AssetStage/Prefabs/Effects/OmniEffect/OmniEffects.asset
+- Assets/ContentPack/AssetStage/Hopoo/shaders/deferred/hgsnowtopped.shader
+- Assets/ContentPack/AssetStage/Hopoo/shaders/environment/hggrass.shader
 Dependencies: []

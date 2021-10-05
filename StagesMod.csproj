@@ -85,7 +85,33 @@
     <Compile Include="Assets\ContentPack\Modules\VFX\InitVFX.cs" />
     <Compile Include="Assets\ContentPack\Modules\VFX\TemporaryVFX.cs" />
     <Compile Include="Assets\ContentPack\StagesMod.cs" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\fx\hgvertexonly.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\fx\hgdamagenumber.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\fx\hgsolidparallax.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\fx\hgdistortion.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\postprocess\hgsobelbuffer.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\postprocess\hgoutlinehighlight.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\ui\hguibarremap.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\fx\hgcloudremap.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\deferred\hgwavycloth.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\ui\hguiblur.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\deferred\hgstandard.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\fx\hgforwardplanet.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\environment\hgdistantwater.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\environment\hgwaterfall.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\ui\hguicustomblend.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\ui\hguioverbrighten.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\ui\hguiignorez.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\fx\hgopaquecloudremap.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\deferred\hgtriplanarterrainblend.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\fx\hgintersectioncloudremap.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\postprocess\hgscopeshader.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\postprocess\hgscreendamage.shader" />
     <None Include="Assets\ContentPack\StagesMod.asmdef" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\ui\hguianimatealpha.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\CopyFromRoR2.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\deferred\hgsnowtopped.shader" />
+    <None Include="Assets\ContentPack\AssetStage\Hopoo\shaders\environment\hggrass.shader" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.16f/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>

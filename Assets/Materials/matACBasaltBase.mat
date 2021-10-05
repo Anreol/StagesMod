@@ -122,8 +122,8 @@ Material:
     m_Floats:
     - _BlueChannelBias: 0.67
     - _BlueChannelSmoothness: 0.108
-    - _BlueChannelSpecularExponent: 1.44
-    - _BlueChannelSpecularStrength: 1
+    - _BlueChannelSpecularExponent: 0.2
+    - _BlueChannelSpecularStrength: 0.011
     - _BumpScale: 1
     - _ColorsOn: 1
     - _Cull: 2
@@ -158,7 +158,7 @@ Material:
     - _GlossyReflections: 1
     - _GreenChannelBias: 0.15
     - _GreenChannelSmoothness: 0
-    - _GreenChannelSpecularExponent: 1.97
+    - _GreenChannelSpecularExponent: 0.6
     - _GreenChannelSpecularStrength: 0
     - _LimbPrimeMask: 1
     - _LimbRemovalOn: 0
@@ -177,7 +177,7 @@ Material:
     - _RampInfo: 1
     - _RedChannelBias: 0.5
     - _RedChannelSmoothness: 0
-    - _RedChannelSpecularExponent: 1.63
+    - _RedChannelSpecularExponent: 0.6
     - _RedChannelSpecularStrength: 0.033
     - _SliceAlphaDepth: 0.1
     - _SliceBandHeight: 1
