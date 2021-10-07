@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 18
-  productGUID: 8ec134035c1925643b974a71728cfff8
+  productGUID: 2d211c04695d1214d879fbb29790a2e5
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: RiskOfDecompilation
+  productName: RoR2 - Gameimporter
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -291,6 +291,9 @@ PlayerSettings:
   - m_BuildTarget: WebGLSupport
     m_APIs: 0b000000
     m_Automatic: 1
+  - m_BuildTarget: WindowsStandaloneSupport
+    m_APIs: 02000000
+    m_Automatic: 0
   m_BuildTargetVRSettings:
   - m_BuildTarget: Standalone
     m_Enabled: 0
@@ -532,15 +535,15 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   scriptingDefineSymbols:
-    1: thunderkit;twiner-rainofstages
-    7: thunderkit;twiner-rainofstages
-    13: thunderkit;twiner-rainofstages
-    19: thunderkit;twiner-rainofstages
-    21: thunderkit;twiner-rainofstages
-    25: thunderkit;twiner-rainofstages
-    26: thunderkit;twiner-rainofstages
-    27: thunderkit;twiner-rainofstages
-    28: thunderkit;twiner-rainofstages
+    1: thunderkit;UNITY_POST_PROCESSING_STACK_V2
+    7: thunderkit;UNITY_POST_PROCESSING_STACK_V2
+    13: thunderkit;UNITY_POST_PROCESSING_STACK_V2
+    19: thunderkit;UNITY_POST_PROCESSING_STACK_V2
+    21: thunderkit;UNITY_POST_PROCESSING_STACK_V2
+    25: thunderkit;UNITY_POST_PROCESSING_STACK_V2
+    26: thunderkit;UNITY_POST_PROCESSING_STACK_V2
+    27: thunderkit;UNITY_POST_PROCESSING_STACK_V2
+    28: thunderkit;UNITY_POST_PROCESSING_STACK_V2
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}

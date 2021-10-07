@@ -7,7 +7,7 @@ using System.Security.Permissions;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("StagesMod")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("It's a RoR2 Mod!")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("StagesMod")]

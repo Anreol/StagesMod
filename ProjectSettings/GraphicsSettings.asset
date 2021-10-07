@@ -5,14 +5,14 @@ GraphicsSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
   m_Deferred:
-    m_Mode: 2
+    m_Mode: 1
     m_Shader: {fileID: 69, guid: 0000000000000000f000000000000000, type: 0}
   m_DeferredReflections:
     m_Mode: 2
-    m_Shader: {fileID: 74, guid: 0000000000000000f000000000000000, type: 0}
+    m_Shader: {fileID: 4800000, guid: d778f88013324d0281eeb384a15a0818, type: 2}
   m_ScreenSpaceShadows:
     m_Mode: 2
-    m_Shader: {fileID: 0}
+    m_Shader: {fileID: 4800000, guid: c78935e2502b43d5904b600f1343d6be, type: 2}
   m_LegacyDeferred:
     m_Mode: 0
     m_Shader: {fileID: 0}
@@ -29,13 +29,34 @@ GraphicsSettings:
     m_Mode: 1
     m_Shader: {fileID: 102, guid: 0000000000000000f000000000000000, type: 0}
   m_AlwaysIncludedShaders:
-  - {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 15104, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 15105, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 15106, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10782, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 4800000, guid: effbccf35be140b4aa5d58281a6068de, type: 2}
+  - {fileID: 4800000, guid: ff794c9563ae4d38b1c7a58e457e2ca4, type: 2}
+  - {fileID: 4800000, guid: 84c5d0e9aabe4907b586ea388d1bade7, type: 2}
+  - {fileID: 4800000, guid: 785cbc58c5af43e68916720cd6f4d906, type: 2}
+  - {fileID: 4800000, guid: 1974e077c4b44782adeb7784dc99a74d, type: 2}
+  - {fileID: 4800000, guid: a0010fcf00a2458fbcd4521ee42974c6, type: 2}
+  - {fileID: 4800000, guid: 4c779fc44dff488797ef26f92be206a8, type: 2}
+  - {fileID: 4800000, guid: df61280cd4d6401887ae38f5965aa0c5, type: 2}
+  - {fileID: 4800000, guid: dc35310c3bac4207a54098b5364ba7f7, type: 2}
+  - {fileID: 4800000, guid: 13facd83ee0f4a86a8511aa75929eb27, type: 2}
+  - {fileID: 4800000, guid: e7bad90fd0384fcaad54810432d99e00, type: 2}
+  - {fileID: 4800000, guid: 995f51c661474eac935f4bbed43ae2db, type: 2}
+  - {fileID: 4800000, guid: 81e831196e38492ebf673147d9bdf4c0, type: 2}
+  - {fileID: 4800000, guid: 6de4123405a545908a2a4e7d85ddb888, type: 2}
+  - {fileID: 4800000, guid: 92afe5a52c334fe685087216e8459d17, type: 2}
+  - {fileID: 4800000, guid: cbfa32ec2c704737abc96526babced52, type: 2}
+  - {fileID: 4800000, guid: ae86480b6d9c4610b9dcae8a9112e593, type: 2}
+  - {fileID: 4800000, guid: 1423c539cd6648f0b210f066ad8a1674, type: 2}
+  - {fileID: 4800000, guid: 0559f5856630415caf9826beefeebe07, type: 2}
+  - {fileID: 4800000, guid: 7af02c0b04494a1aba236ab87b7194a2, type: 2}
+  - {fileID: 4800000, guid: 1882b51011bd41059570e674a7ba1bea, type: 2}
+  - {fileID: 4800000, guid: d44b469c6f104311b62e397e83f977c3, type: 2}
+  - {fileID: 4800000, guid: c9baeb6cb9714ad0b6bceb4a658a00e9, type: 2}
+  - {fileID: 4800000, guid: d9263e59bfd1486c8fd44410956cbdd4, type: 2}
+  - {fileID: 4800000, guid: 47647f832ecb4b7995b9595d356671c7, type: 2}
+  - {fileID: 4800000, guid: 26ae956b976c4641b1927fb1efb41eac, type: 2}
+  - {fileID: 4800000, guid: 4995bd8d61d24f94863911d5d09cada8, type: 2}
+  - {fileID: 4800000, guid: b79a7c562f2941bea84cbf7a89d08006, type: 2}
   - {fileID: 16000, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 17000, guid: 0000000000000000f000000000000000, type: 0}
   m_PreloadedShaders: []
@@ -101,16 +122,16 @@ GraphicsSettings:
   m_LightmapStripping: 0
   m_FogStripping: 0
   m_InstancingStripping: 0
-  m_LightmapKeepPlain: 0
-  m_LightmapKeepDirCombined: 0
-  m_LightmapKeepDynamicPlain: 0
-  m_LightmapKeepDynamicDirCombined: 0
-  m_LightmapKeepShadowMask: 0
-  m_LightmapKeepSubtractive: 0
-  m_FogKeepLinear: 0
+  m_LightmapKeepPlain: 1
+  m_LightmapKeepDirCombined: 1
+  m_LightmapKeepDynamicPlain: 1
+  m_LightmapKeepDynamicDirCombined: 1
+  m_LightmapKeepShadowMask: 1
+  m_LightmapKeepSubtractive: 1
+  m_FogKeepLinear: 1
   m_FogKeepExp: 1
   m_FogKeepExp2: 1
   m_AlbedoSwatchInfos: []
-  m_LightsUseLinearIntensity: 0
-  m_LightsUseColorTemperature: 0
+  m_LightsUseLinearIntensity: 1
+  m_LightsUseColorTemperature: 1
   m_LogWhenShaderIsCompiled: 0

@@ -1,6 +1,6 @@
 Win
 PlayerPath?
-C:/Users/Anr/source/repos/StagesMod/ThunderKit/AssetBundleStaging/aliencaves.ros
+C:/Users/Anr/source/repos/StagesMod/ThunderKit/AssetBundleStaging/aliencaves
 SceneListBegin?
 Assets/Scenes/aliencaves.unity
 SceneListEnd?

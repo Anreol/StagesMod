@@ -8,8 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: matFotHeight
-  m_Shader: {fileID: 4800000, guid: de7e8e0d1dd41004b9dd7a4bd675e9c4, type: 3}
-  m_ShaderKeywords: USE_CLOUDS _DISPLACEMENTMODE_OFF _DISTORTIONQUALITY_HIGH _REFLECTIONTYPE_NONE
+  m_Shader: {fileID: 4800000, guid: b2615d73cdc148d2abd32883edcc108a, type: 2}
+  m_ShaderKeywords: DISTANCEMODULATION USE_CLOUDS _DISPLACEMENTMODE_OFF _DISTORTIONQUALITY_HIGH
+    _REFLECTIONTYPE_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,6 +20,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AtmosphereRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BlueChannelNormalTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -28,7 +33,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c776d69bd4f9d3f4f9cb4676061229ec, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMapLarge:
@@ -36,11 +41,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cloud1Tex:
-        m_Texture: {fileID: 2800000, guid: 19e457b0ebabacd47a645ada1b8a1b16, type: 3}
+        m_Texture: {fileID: 2800000, guid: cd37f2abe61c7374c9c761c1e94f4fbc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cloud2Tex:
-        m_Texture: {fileID: 2800000, guid: 1514cd4ec8cc5f741bab47c0c49d7a6d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 19e457b0ebabacd47a645ada1b8a1b16, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cube:
@@ -59,11 +64,23 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DiffuseDetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionRamp:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -111,12 +128,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _LightWarpRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e38ebc350b4db1040a039ea7d6e6ae55, type: 3}
+        m_Texture: {fileID: 2800000, guid: 715e1b34e6ef1644f92e7e6674042581, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 5a0c50d437b61f445be91166062694b0, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -132,6 +153,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal2Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalDetailTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -176,9 +201,10 @@ Material:
     - _AlphaBoost: 3.3
     - _Amplitude: 0.05
     - _AngleLimit: 0.5
+    - _AtmosphereStrength: 1
     - _BlueChannelBias: 0
     - _BlueChannelSmoothness: 0
-    - _Boost: 1.21
+    - _Boost: 2.21
     - _BumpLargeStrength: 1
     - _BumpScale: 1
     - _BumpStrength: 1
@@ -199,14 +225,16 @@ Material:
     - _Depth: 0.2
     - _DepthOffset: 0
     - _DetailNormalMapScale: 1
+    - _DetailStrength: 0.5
     - _DisableRemapOn: 0
     - _DisplacementMode: 0
-    - _DistanceModulationMagnitude: 0.5
-    - _DistanceModulationOn: 0
+    - _DistanceModulationMagnitude: 0.819
+    - _DistanceModulationOn: 1
     - _Distortion: 50
     - _DistortionQuality: 0
     - _DistortionStrength: 0.11
     - _DitherOn: 0
+    - _DoubleSampleFactor: 1
     - _DstBlend: 0
     - _DstBlendFloat: 10
     - _EdgeFade: 1
@@ -216,6 +244,7 @@ Material:
     - _EmPower: 1
     - _EmissionFromAlbedo: 0
     - _EmissionPower: 1
+    - _EmissionStrength: 1
     - _EnableCutout: 0
     - _EnableFog: 0
     - _EnableLargeBump: 0
@@ -255,11 +284,11 @@ Material:
     - _InternalSimpleBlendMode: 0
     - _IntersectionStrength: 2.8
     - _IntersectionThresholdMax: 0.005
-    - _InvFade: 9.4
+    - _InvFade: 0.84
     - _LimbPrimeMask: 1
     - _LimbRemovalOn: 0
     - _LimitTo: 0
-    - _Magnitude: 5.7
+    - _Magnitude: 6.33
     - _MaskMultiplier: 1
     - _MaskNormals: 1
     - _Metallic: 0
@@ -284,6 +313,7 @@ Material:
     - _ReflectionType: 0
     - _RimPower: 3.1
     - _RimStrength: 4.62
+    - _RotationSpeed: 0
     - _Scale: 1.35
     - _SkyboxOnly: 0
     - _SliceAlphaDepth: 0.1
@@ -295,6 +325,7 @@ Material:
     - _SoftPower: 4.8
     - _SpecularExponent: 3.3
     - _SpecularHighlights: 1
+    - _SpecularPower: 1
     - _SpecularStrength: 0.149
     - _Speed: 1
     - _SplatmapOn: 0

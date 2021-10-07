@@ -1,11 +1,11 @@
 ManifestFileVersion: 0
-CRC: 1988349489
+CRC: 330607117
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: assetstages
       Dependencies: {}
     Info_1:
-      Name: aliencaves.ros
+      Name: aliencaves
       Dependencies:
         Dependency_0: assetstages

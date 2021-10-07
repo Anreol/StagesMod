@@ -72,15 +72,16 @@ namespace StagesMod
             Assets.Init();
             //InitPickups.Init();
             //InitBuffs.Initialize();
-            GetType().Assembly.GetTypes()
-                              .Where(type => typeof(EntityStates.EntityState).IsAssignableFrom(type))
-                              .ToList()
-                              .ForEach(state => HG.ArrayUtils.ArrayAppend(ref serializableContentPack.entityStateTypes, new EntityStates.SerializableEntityStateType(state)));
-
-            args.ReportProgress(1f);
+            /*GetType().Assembly.GetTypes()
+             *                 .Where(type => typeof(EntityStates.EntityState).IsAssignableFrom(type))
+             *                 .ToList()
+             *                 .ForEach(state => HG.ArrayUtils.ArrayAppend(ref serializableContentPack.entityStateTypes, new EntityStates.SerializableEntityStateType(state)));
+            */
+            Assets.LoadEffects();
 
             if (onLoadStaticContent != null)
                 yield return onGenerateContentPack;
+            args.ReportProgress(1f);
             yield break;
         }
 
@@ -92,9 +93,10 @@ namespace StagesMod
             contentPack.identifier = identifier;
             ContentPack.Copy(contentPack, args.output);
 
-            args.ReportProgress(1f);
+            
             if (onGenerateContentPack != null)
                 yield return onGenerateContentPack;
+            args.ReportProgress(1f);
             yield break;
         }
 
@@ -114,16 +116,4 @@ namespace StagesMod
 
         public delegate IEnumerator FinalizeAsyncDelegate(FinalizeAsyncArgs args);
     }
-
-    /* Apparently this is all unused because Ghor didn't finish it....
-     * leaving it just in case tho...
-     * im sad...
-
-    public class TurboRoR2Mod : RoR2Mod
-    {
-        public RoR2.ContentManagement.IContentPackProvider contentPackProvider = ???;
-        public TurboRoR2Mod() : base (Mod.FromJsonFile("TurboEdition", pathToFile))
-        {
-        }
-    }*/
 }

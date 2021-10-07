@@ -29,9 +29,10 @@ namespace StagesMod
         internal static string mainAssetBundleName = "assetstages";
         public static ReadOnlyCollection<AssetBundle> assetBundles;
 
+        [RoR2.SystemInitializer] //See the same thing on TE
         public static void Init()
         {
-            LoadEffects();
+            SMLog.LogW("It actually works!");
             var gameMaterials = Resources.FindObjectsOfTypeAll<Material>();
             foreach (var assetBundle in assetBundles)
                 MapMaterials(assetBundle, gameMaterials);
@@ -54,13 +55,13 @@ namespace StagesMod
                     HG.ArrayUtils.ArrayAppend(ref StagesMod.serializableContentPack.effectDefs, EffectDefHolder.ToEffectDef(effectPrefab));
         }
 
+        //useless, didnt do what i wanted it to do
+        //private static readonly System.Collections.Generic.List<Material> loadedHGMaterials = new System.Collections.Generic.List<Material>();
         internal static void MapMaterials(AssetBundle assetBundle, Material[] gameMaterials)
         {
             if (assetBundle.isStreamedSceneAssetBundle)
                 return;
 
-            //The absolute fucking state of having to do shaders in RoR2
-            //SHADERS NEVER FUCKING EVER
             var cloudMat = Resources.Load<GameObject>("Prefabs/Effects/OrbEffects/LightningStrikeOrbEffect").transform.Find("Ring").GetComponent<ParticleSystemRenderer>().material;
 
             Material[] assetBundleMaterials = assetBundle.LoadAllAssets<Material>();
@@ -92,6 +93,7 @@ namespace StagesMod
                         }
                 }
                 assetBundleMaterials[i] = material;
+                //loadedHGMaterials.Add(material);
             }
         }
     }
