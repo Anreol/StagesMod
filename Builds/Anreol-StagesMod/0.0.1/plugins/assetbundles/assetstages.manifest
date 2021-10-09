@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1912539463
+CRC: 1912140275
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4c7bcb34bfdbe058aca6bf7ee1b3bf60
+    Hash: 7d735584bdb6aaa71686fe4e45b7b864
   TypeTreeHash:
     serializedVersion: 2
     Hash: d97caa1c14b409cc2600558e1fc25e39
@@ -34,23 +34,35 @@ Assets:
 - Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgdamagenumber.shader
 - Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgsolidparallax.shader
 - Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgdistortion.shader
+- Assets/ContentPack/AssetStage/Materials/matEditorTemp.mat
 - Assets/ContentPack/AssetStage/Hopoo/shaders/postprocess/hgsobelbuffer.shader
+- Assets/Textures/texCloudBankA.png
+- Assets/ContentPack/AssetStage/Materials/matCrystalParallax03.mat
+- Assets/ContentPack/AssetStage/Materials/matACBasaltBase.mat
 - Assets/ContentPack/AssetStage/Hopoo/materials/matOmniRing2.mat
+- Assets/Textures/texBasaltDirt.png
+- Assets/Textures/texUV128.png
 - Assets/ContentPack/AssetStage/SceneDefs/aliencaves.asset
 - Assets/ContentPack/AssetStage/Hopoo/materials/matOmniHitspark3.mat
 - Assets/ContentPack/AssetStage/Hopoo/materials/matOmniHitspark2.mat
 - Assets/ContentPack/AssetStage/Hopoo/shaders/postprocess/hgoutlinehighlight.shader
+- Assets/Textures/texBasaltNormal.png
 - Assets/ContentPack/AssetStage/Hopoo/materials/matOmniHitspark1.mat
 - Assets/ContentPack/AssetStage/Hopoo/shaders/ui/hguibarremap.shader
 - Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgcloudremap.shader
 - Assets/ContentPack/AssetStage/Hopoo/shaders/deferred/hgwavycloth.shader
+- Assets/Textures/Ramps/texRampWhiteAlphaOnly.asset
 - Assets/ContentPack/AssetStage/Hopoo/shaders/ui/hguiblur.shader
 - Assets/ContentPack/AssetStage/Hopoo/shaders/deferred/hgstandard.shader
 - Assets/ContentPack/AssetStage/Hopoo/materials/matOmniHitspark4.mat
+- Assets/Textures/texCloudDifferenceBW2.asset
 - Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgforwardplanet.shader
+- Assets/Textures/Ramps/texRampDefault.asset
 - Assets/ContentPack/AssetStage/heaven.png
 - Assets/ContentPack/AssetStage/Hopoo/materials/matBrotherSwingDistortion.mat
+- Assets/Textures/texCloudOut.png
 - Assets/ContentPack/AssetStage/Hopoo/shaders/environment/hgdistantwater.shader
+- Assets/ContentPack/AssetStage/Materials/matCrystalParallax02.mat
 - Assets/ContentPack/AssetStage/Hopoo/materials/matGenericFlash.mat
 - Assets/ContentPack/AssetStage/Hopoo/shaders/environment/hgwaterfall.shader
 - Assets/ContentPack/AssetStage/ContentPack.asset
@@ -60,19 +72,26 @@ Assets:
 - Assets/ContentPack/AssetStage/Hopoo/shaders/ui/hguiignorez.shader
 - Assets/ContentPack/AssetStage/Hopoo/materials/matDeathProjectileFlare.mat
 - Assets/ContentPack/AssetStage/Hopoo/materials/matTracerBright.mat
+- Assets/ContentPack/AssetStage/Materials/matCrystalParallax01.mat
 - Assets/ContentPack/AssetStage/Prefabs/Effects/CopyFromHopoo.asset
 - Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgopaquecloudremap.shader
 - Assets/ContentPack/AssetStage/SurfaceDefs/Placeholder.asset
 - Assets/ContentPack/AssetStage/Hopoo/shaders/deferred/hgtriplanarterrainblend.shader
+- Assets/Textures/texBasaltBase.png
 - Assets/ContentPack/AssetStage/Hopoo/materials/matOmniRing1.mat
 - Assets/ContentPack/AssetStage/Hopoo/materials/matMercExposedBackdrop.mat
+- Assets/ContentPack/AssetStage/Materials/matFotHeight.mat
+- Assets/Textures/texBasaltGround.png
 - Assets/ContentPack/AssetStage/Hopoo/shaders/fx/hgintersectioncloudremap.shader
 - Assets/ContentPack/AssetStage/Hopoo/shaders/postprocess/hgscopeshader.shader
 - Assets/ContentPack/AssetStage/Prefabs/Effects/OrbEffects/OrbEffects.asset
 - Assets/ContentPack/AssetStage/Hopoo/shaders/postprocess/hgscreendamage.shader
+- Assets/ContentPack/AssetStage/Materials/matVertexOnly.mat
 - Assets/ContentPack/AssetStage/Hopoo/shaders/ui/hguianimatealpha.shader
 - Assets/ContentPack/AssetStage/Hopoo/shaders/CopyFromRoR2.shader
+- Assets/Textures/texCloudBankB.png
 - Assets/ContentPack/AssetStage/Prefabs/Effects/OmniEffect/OmniEffects.asset
 - Assets/ContentPack/AssetStage/Hopoo/shaders/deferred/hgsnowtopped.shader
 - Assets/ContentPack/AssetStage/Hopoo/shaders/environment/hggrass.shader
+- Assets/ContentPack/AssetStage/Materials/matPlaceholderSimple.mat
 Dependencies: []

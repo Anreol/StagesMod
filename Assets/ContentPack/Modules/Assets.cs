@@ -32,10 +32,12 @@ namespace StagesMod
         [RoR2.SystemInitializer] //See the same thing on TE
         public static void Init()
         {
-            SMLog.LogW("It actually works!");
             var gameMaterials = Resources.FindObjectsOfTypeAll<Material>();
             foreach (var assetBundle in assetBundles)
+            {
+                SMLog.LogW("Changing " + assetBundle.name + " materials. Is Streamed: " + assetBundle.isStreamedSceneAssetBundle);
                 MapMaterials(assetBundle, gameMaterials);
+            }
         }
 
         public static string[] GetAssetBundlePaths()
@@ -56,23 +58,25 @@ namespace StagesMod
         }
 
         //useless, didnt do what i wanted it to do
-        //private static readonly System.Collections.Generic.List<Material> loadedHGMaterials = new System.Collections.Generic.List<Material>();
+        private static readonly System.Collections.Generic.List<Material> loadedHGMaterials = new System.Collections.Generic.List<Material>();
         internal static void MapMaterials(AssetBundle assetBundle, Material[] gameMaterials)
         {
             if (assetBundle.isStreamedSceneAssetBundle)
                 return;
-
+            //SMLog.LogW("Mapping " + assetBundle.name + " materials");
             var cloudMat = Resources.Load<GameObject>("Prefabs/Effects/OrbEffects/LightningStrikeOrbEffect").transform.Find("Ring").GetComponent<ParticleSystemRenderer>().material;
 
             Material[] assetBundleMaterials = assetBundle.LoadAllAssets<Material>();
-
+            //SMLog.LogW("Materials loaded length " + assetBundleMaterials.Length);
             for (int i = 0; i < assetBundleMaterials.Length; i++)
             {
                 var material = assetBundleMaterials[i];
                 // If it's stubbed, just switch out the shader unless it's fucking cloudremap
                 if (material.shader.name.StartsWith("StubbedShader"))
                 {
+                    //SMLog.LogW(material.shader);
                     material.shader = Resources.Load<Shader>("shaders" + material.shader.name.Substring(13));
+                    //SMLog.LogW(material.shader);
                     if (material.shader.name.Contains("Cloud Remap"))
                     {
                         var cockSucker = new RuntimeCloudMaterialMapper(material);
@@ -93,7 +97,7 @@ namespace StagesMod
                         }
                 }
                 assetBundleMaterials[i] = material;
-                //loadedHGMaterials.Add(material);
+                loadedHGMaterials.Add(material);
             }
         }
     }

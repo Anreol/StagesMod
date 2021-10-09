@@ -79,6 +79,7 @@ MonoBehaviour:
   - assetBundleName: assetstages
     assets:
     - {fileID: 102900000, guid: df259b5ce648ed6468125650bc290ae3, type: 3}
+    - {fileID: 102900000, guid: c3480c3692834b74aa0e541c73923149, type: 3}
   - assetBundleName: aliencaves
     assets:
     - {fileID: 102900000, guid: 8b2f708268f5f3c4cb42ada8d75112ca, type: 3}

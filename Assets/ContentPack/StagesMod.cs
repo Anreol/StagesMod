@@ -69,7 +69,7 @@ namespace StagesMod
             Assets.assetBundles = new ReadOnlyCollection<AssetBundle>(loadedBundles);
 
             serializableContentPack = Assets.mainAssetBundle.LoadAsset<SerializableContentPack>("ContentPack");
-            Assets.Init();
+            //Assets.Init();
             //InitPickups.Init();
             //InitBuffs.Initialize();
             /*GetType().Assembly.GetTypes()
