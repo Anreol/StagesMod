@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: matFotHeight
-  m_Shader: {fileID: 4800000, guid: b2615d73cdc148d2abd32883edcc108a, type: 2}
+  m_Shader: {fileID: 4800000, guid: 808dd10fb2977c14a88695973007c25d, type: 3}
   m_ShaderKeywords: DISTANCEMODULATION USE_CLOUDS _DISPLACEMENTMODE_OFF _DISTORTIONQUALITY_HIGH
     _REFLECTIONTYPE_NONE
   m_LightmapFlags: 4
@@ -283,7 +283,7 @@ Material:
     - _HeightStrength: 1
     - _InternalSimpleBlendMode: 0
     - _IntersectionStrength: 2.8
-    - _IntersectionThresholdMax: 0.005
+    - _IntersectionThresholdMax: 0.0035
     - _InvFade: 0.84
     - _LimbPrimeMask: 1
     - _LimbRemovalOn: 0
